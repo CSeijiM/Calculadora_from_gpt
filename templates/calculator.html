@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <form action="/calculate" method="post">
+        <label for="num1">Enter first number:</label>
+        <input type="number" name="num1" required><br>
+
+        <label for="operator">Select operator:</label>
+        <select name="operator" required>
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select><br>
+
+        <label for="num2">Enter second number:</label>
+        <input type="number" name="num2" required><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
